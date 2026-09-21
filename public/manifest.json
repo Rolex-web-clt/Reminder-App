@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "Remindify — Advanced Reminder SaaS",
+  "short_name": "Remindify",
+  "description": "Production MERN Reminder and Productivity SaaS with AI scheduling, voice reminders, calendar, and analytics.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

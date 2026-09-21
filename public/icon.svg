@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <g filter="url(#shadow)" transform="translate(106, 106)">
+    <!-- Bell shape -->
+    <path d="M150 40 C110 40 75 75 75 125 C75 185 50 215 35 230 C25 240 32 255 45 255 L255 255 C268 255 275 240 265 230 C250 215 225 185 225 125 C225 75 190 40 150 40 Z" fill="#ffffff" />
+    <!-- Clapper -->
+    <path d="M125 265 C125 285 136 295 150 295 C164 295 175 285 175 265 Z" fill="#e0e7ff" />
+    <!-- Checkmark spark badge -->
+    <circle cx="215" cy="85" r="45" fill="#10b981" stroke="#ffffff" stroke-width="8" />
+    <path d="M198 85 L210 97 L232 75" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

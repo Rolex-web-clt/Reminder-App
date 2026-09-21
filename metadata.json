@@ -1,0 +1,6 @@
+{
+  "name": "Remindify — Advanced Reminder & Productivity SaaS",
+  "description": "Full-stack MERN Reminder and Productivity SaaS with AI-powered natural language scheduling, voice reminders, calendar, analytics, team collaboration, and PWA capabilities.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

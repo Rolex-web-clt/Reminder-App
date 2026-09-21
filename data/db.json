@@ -1,0 +1,604 @@
+{
+  "users": [
+    {
+      "_id": "bb651c90ef7499e7c5845e7f",
+      "name": "Anil Verma",
+      "email": "demo@remindify.com",
+      "password": "$2b$10$XIS7ThIYyIRwYHqWK2t5sO5LhdnFQtRT0ApHWr4mquTOpn1FXYglu",
+      "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "phone": "+1 (555) 234-5678",
+      "isEmailVerified": true,
+      "twoFactorEnabled": false,
+      "role": "USER",
+      "language": "en",
+      "timezone": "America/New_York",
+      "browserNotifications": true,
+      "emailNotifications": true,
+      "notificationTiming": "at_time",
+      "theme": "light",
+      "googleCalendarConnected": false,
+      "createdAt": "2026-09-21T09:40:07.256Z",
+      "updatedAt": "2026-09-21T09:40:07.256Z"
+    },
+    {
+      "_id": "a3c5280effd0b88cc871d862",
+      "name": "Annil Verma",
+      "email": "annilverma5566@gmail.com",
+      "password": "$2b$10$6VyLZPmOFwu8yAB5qTb.Au6XC2hLg76TRmK.TTT.ZcsgrRVsAT7WO",
+      "isEmailVerified": true,
+      "twoFactorEnabled": false,
+      "role": "USER",
+      "language": "en",
+      "timezone": "UTC",
+      "browserNotifications": true,
+      "emailNotifications": true,
+      "notificationTiming": "at_time",
+      "theme": "light",
+      "googleCalendarConnected": false,
+      "createdAt": "2026-09-21T11:35:12.568Z",
+      "updatedAt": "2026-09-21T11:35:51.242Z",
+      "phone": "9866655522",
+      "profileImage": ""
+    }
+  ],
+  "reminders": [
+    {
+      "_id": "ff926876a61a288ab89f1802",
+      "title": "Review MERN Architecture & API Endpoints",
+      "description": "Verify JWT tokens, Express rate limit, and MongoDB collection models.",
+      "date": "2026-09-21",
+      "time": "14:00",
+      "timezone": "America/New_York",
+      "priority": "HIGH",
+      "status": "PENDING",
+      "isCompleted": false,
+      "category": "Work",
+      "tags": [
+        "mern",
+        "architecture",
+        "important"
+      ],
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "attachments": [],
+      "recurrence": {
+        "type": "NONE"
+      },
+      "notificationSettings": {
+        "browser": true,
+        "email": true,
+        "timing": "at_time"
+      },
+      "sharedWith": [],
+      "createdAt": "2026-09-21T09:40:07.256Z",
+      "updatedAt": "2026-09-21T09:40:07.256Z"
+    },
+    {
+      "_id": "707b5571acdb697e7ecabec0",
+      "title": "Daily Team Standup Meeting",
+      "description": "Sync with product and engineering teams on sprint deliverables.",
+      "date": "2026-09-21",
+      "time": "10:00",
+      "timezone": "America/New_York",
+      "priority": "MEDIUM",
+      "status": "COMPLETED",
+      "isCompleted": true,
+      "completedAt": "2026-09-21T09:40:07.256Z",
+      "category": "Meeting",
+      "tags": [
+        "work",
+        "standup"
+      ],
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "attachments": [],
+      "recurrence": {
+        "type": "DAILY"
+      },
+      "notificationSettings": {
+        "browser": true,
+        "email": false,
+        "timing": "5m"
+      },
+      "sharedWith": [],
+      "createdAt": "2026-09-21T09:40:07.256Z",
+      "updatedAt": "2026-09-21T09:40:07.256Z"
+    },
+    {
+      "_id": "b4b4cac230b4604abdd8f8f4",
+      "title": "Submit Quarterly Financial Report",
+      "description": "Collate monthly receipts, tax deductions, and invoices.",
+      "date": "2026-09-22",
+      "time": "17:30",
+      "timezone": "America/New_York",
+      "priority": "URGENT",
+      "status": "PENDING",
+      "isCompleted": false,
+      "category": "Finance",
+      "tags": [
+        "urgent",
+        "tax",
+        "finance"
+      ],
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "attachments": [],
+      "recurrence": {
+        "type": "MONTHLY"
+      },
+      "notificationSettings": {
+        "browser": true,
+        "email": true,
+        "timing": "1h"
+      },
+      "sharedWith": [],
+      "createdAt": "2026-09-21T09:40:07.256Z",
+      "updatedAt": "2026-09-21T09:40:07.256Z"
+    },
+    {
+      "_id": "9f67ea2921bb36efd784495a",
+      "title": "I have to go Supermarket 8:30",
+      "description": "Created via natural language assistant: \"I have to go Supermarket 8:30\"",
+      "date": "2026-09-21",
+      "time": "09:00",
+      "timezone": "UTC",
+      "priority": "MEDIUM",
+      "status": "COMPLETED",
+      "isCompleted": true,
+      "category": "Personal",
+      "tags": [],
+      "userId": "a3c5280effd0b88cc871d862",
+      "attachments": [],
+      "recurrence": {
+        "type": "NONE"
+      },
+      "notificationSettings": {
+        "browser": true,
+        "email": true,
+        "timing": "at_time"
+      },
+      "sharedWith": [],
+      "createdAt": "2026-09-21T11:37:43.791Z",
+      "updatedAt": "2026-09-21T11:45:48.372Z",
+      "completedAt": "2026-09-21T11:45:48.372Z"
+    },
+    {
+      "_id": "ca7bbb31b6f443b569e3bbb0",
+      "title": "gym",
+      "description": "",
+      "date": "2026-09-01",
+      "time": "09:00",
+      "timezone": "UTC",
+      "priority": "MEDIUM",
+      "status": "OVERDUE",
+      "isCompleted": false,
+      "category": "Personal",
+      "tags": [],
+      "userId": "a3c5280effd0b88cc871d862",
+      "attachments": [],
+      "recurrence": {
+        "type": "NONE"
+      },
+      "notificationSettings": {
+        "browser": true,
+        "email": true,
+        "timing": "at_time"
+      },
+      "sharedWith": [],
+      "createdAt": "2026-09-21T11:49:18.323Z",
+      "updatedAt": "2026-09-21T11:49:18.323Z"
+    },
+    {
+      "_id": "e6fc7a19f9008ca6f9379449",
+      "title": "Updated reminder (Copy)",
+      "description": "",
+      "date": "2026-09-25",
+      "time": "12:00",
+      "timezone": "America/New_York",
+      "priority": "HIGH",
+      "status": "PENDING",
+      "isCompleted": false,
+      "category": "Work",
+      "tags": [],
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "attachments": [],
+      "recurrence": {
+        "type": "NONE"
+      },
+      "notificationSettings": {
+        "browser": true,
+        "email": true,
+        "timing": "at_time"
+      },
+      "sharedWith": [],
+      "createdAt": "2026-09-21T12:00:32.479Z",
+      "updatedAt": "2026-09-21T12:00:32.479Z"
+    },
+    {
+      "_id": "92e1ece0e387a4d3cf603184",
+      "title": "Test Comprehensive Suite (Updated)",
+      "description": "Verified by automated runner",
+      "date": "2026-09-22",
+      "time": "11:00",
+      "timezone": "America/New_York",
+      "priority": "HIGH",
+      "status": "COMPLETED",
+      "isCompleted": true,
+      "category": "Work",
+      "tags": [],
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "attachments": [],
+      "recurrence": {
+        "type": "NONE"
+      },
+      "notificationSettings": {
+        "browser": true,
+        "email": true,
+        "timing": "at_time"
+      },
+      "sharedWith": [],
+      "createdAt": "2026-09-21T12:01:32.374Z",
+      "updatedAt": "2026-09-21T12:01:32.379Z",
+      "completedAt": "2026-09-21T12:01:32.379Z"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Work",
+      "color": "#4f46e5",
+      "icon": "Briefcase",
+      "isDefault": true,
+      "userId": "system",
+      "_id": "64ec1527703e7d294b792424",
+      "createdAt": "2026-09-21T09:40:07.148Z"
+    },
+    {
+      "name": "Personal",
+      "color": "#06b6d4",
+      "icon": "User",
+      "isDefault": true,
+      "userId": "system",
+      "_id": "aab1c209390763392f062272",
+      "createdAt": "2026-09-21T09:40:07.148Z"
+    },
+    {
+      "name": "Study",
+      "color": "#8b5cf6",
+      "icon": "GraduationCap",
+      "isDefault": true,
+      "userId": "system",
+      "_id": "105a9e0367cc709ce992b04f",
+      "createdAt": "2026-09-21T09:40:07.148Z"
+    },
+    {
+      "name": "Health",
+      "color": "#10b981",
+      "icon": "HeartPulse",
+      "isDefault": true,
+      "userId": "system",
+      "_id": "5bbc57a89fe63aa860fbde0b",
+      "createdAt": "2026-09-21T09:40:07.148Z"
+    },
+    {
+      "name": "Finance",
+      "color": "#f59e0b",
+      "icon": "DollarSign",
+      "isDefault": true,
+      "userId": "system",
+      "_id": "cd43a5f5570e73bec85d5761",
+      "createdAt": "2026-09-21T09:40:07.148Z"
+    },
+    {
+      "name": "Meeting",
+      "color": "#ec4899",
+      "icon": "Calendar",
+      "isDefault": true,
+      "userId": "system",
+      "_id": "e4a5670ec18fcc3b10a6d0c8",
+      "createdAt": "2026-09-21T09:40:07.148Z"
+    },
+    {
+      "name": "Shopping",
+      "color": "#f97316",
+      "icon": "ShoppingCart",
+      "isDefault": true,
+      "userId": "system",
+      "_id": "d59ba97c008511d9de6653cf",
+      "createdAt": "2026-09-21T09:40:07.148Z"
+    },
+    {
+      "name": "Travel",
+      "color": "#14b8a6",
+      "icon": "Plane",
+      "isDefault": true,
+      "userId": "system",
+      "_id": "f3081a4a80e9270349db0c01",
+      "createdAt": "2026-09-21T09:40:07.148Z"
+    },
+    {
+      "name": "Other",
+      "color": "#64748b",
+      "icon": "Folder",
+      "isDefault": true,
+      "userId": "system",
+      "_id": "66e10f9f0ece5db4d30bdb54",
+      "createdAt": "2026-09-21T09:40:07.148Z"
+    },
+    {
+      "_id": "57912a7baf6cea41ea473dc4",
+      "name": "TestingCat",
+      "color": "#ff0000",
+      "icon": "Folder",
+      "isDefault": false,
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "createdAt": "2026-09-21T12:00:32.489Z"
+    }
+  ],
+  "tags": [
+    {
+      "_id": "dc791e2a34774de007665579",
+      "name": "important",
+      "color": "#ef4444",
+      "userId": "system"
+    },
+    {
+      "_id": "36eb57baacc7d5691e82990f",
+      "name": "urgent",
+      "color": "#f97316",
+      "userId": "system"
+    },
+    {
+      "_id": "adb7897a9412409e8ebba5a3",
+      "name": "study",
+      "color": "#8b5cf6",
+      "userId": "system"
+    },
+    {
+      "_id": "46502f1aa06321ceb2dd3828",
+      "name": "work",
+      "color": "#3b82f6",
+      "userId": "system"
+    },
+    {
+      "_id": "dfa4ee1993436df4b04d0d4a",
+      "name": "personal",
+      "color": "#10b981",
+      "userId": "system"
+    },
+    {
+      "_id": "8a2534d7b12a9c5c79cefba3",
+      "name": "mern",
+      "color": "#6366f1",
+      "userId": "system"
+    },
+    {
+      "_id": "5edea3b02a1ad7c8fefe53f5",
+      "name": "health",
+      "color": "#ec4899",
+      "userId": "system"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "9aabf514068595b2c2f1b6f5",
+      "userId": "a3c5280effd0b88cc871d862",
+      "title": "Welcome to Remindify!",
+      "message": "Get started by creating your first reminder or using our AI assistant.",
+      "type": "SYSTEM",
+      "isRead": false,
+      "createdAt": "2026-09-21T11:35:12.569Z"
+    }
+  ],
+  "workspaces": [
+    {
+      "_id": "6d5e4d15037d531fd5cb6d1e",
+      "name": "Sprint Team",
+      "description": "Product deliverables",
+      "type": "TEAM",
+      "ownerId": "bb651c90ef7499e7c5845e7f",
+      "members": [
+        {
+          "userId": "bb651c90ef7499e7c5845e7f",
+          "name": "Anil Verma",
+          "email": "demo@remindify.com",
+          "role": "OWNER",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+          "joinedAt": "2026-09-21T12:00:32.493Z"
+        }
+      ],
+      "createdAt": "2026-09-21T12:00:32.493Z",
+      "updatedAt": "2026-09-21T12:00:32.493Z"
+    }
+  ],
+  "activities": [
+    {
+      "_id": "909096ac22a78abde69e4edf",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "CREATE_CATEGORY",
+      "resource": "Category",
+      "resourceId": "be83d77e865ef7d9ecd4781f",
+      "details": "Created category \"TestCat\"",
+      "timestamp": "2026-09-21T12:01:42.540Z"
+    },
+    {
+      "_id": "87875045287c1a858a4b203d",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "BATCH_DELETE",
+      "resource": "Reminder",
+      "details": "Batch deleted 1 reminders",
+      "timestamp": "2026-09-21T12:01:42.537Z"
+    },
+    {
+      "_id": "e6e51edafaf53741b8f4ceb3",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "BATCH_COMPLETE",
+      "resource": "Reminder",
+      "details": "Batch completed 1 reminders",
+      "timestamp": "2026-09-21T12:01:42.535Z"
+    },
+    {
+      "_id": "8d94d365a3b92a3119bf5966",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "COMPLETE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "59d2f86d6d624b11bda3ddf2",
+      "details": "Completed \"Test Comprehensive Suite (Updated)\"",
+      "timestamp": "2026-09-21T12:01:42.532Z"
+    },
+    {
+      "_id": "b2e9cc479a6fb658a3ea699a",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "UPDATE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "59d2f86d6d624b11bda3ddf2",
+      "details": "Updated reminder \"Test Comprehensive Suite (Updated)\"",
+      "timestamp": "2026-09-21T12:01:42.529Z"
+    },
+    {
+      "_id": "8358332ce04d5751f9de1836",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "CREATE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "59d2f86d6d624b11bda3ddf2",
+      "details": "Created reminder \"Test Comprehensive Suite\"",
+      "timestamp": "2026-09-21T12:01:42.522Z"
+    },
+    {
+      "_id": "5a37fab9969dffaf90406304",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "COMPLETE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "92e1ece0e387a4d3cf603184",
+      "details": "Completed \"Test Comprehensive Suite (Updated)\"",
+      "timestamp": "2026-09-21T12:01:32.379Z"
+    },
+    {
+      "_id": "95df4498fa31695a4311f3fa",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "UPDATE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "92e1ece0e387a4d3cf603184",
+      "details": "Updated reminder \"Test Comprehensive Suite (Updated)\"",
+      "timestamp": "2026-09-21T12:01:32.377Z"
+    },
+    {
+      "_id": "7720f2627461600566039004",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "CREATE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "92e1ece0e387a4d3cf603184",
+      "details": "Created reminder \"Test Comprehensive Suite\"",
+      "timestamp": "2026-09-21T12:01:32.374Z"
+    },
+    {
+      "_id": "15fb6caa2602cd3d0ec8c45a",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "CREATE_WORKSPACE",
+      "resource": "Workspace",
+      "resourceId": "6d5e4d15037d531fd5cb6d1e",
+      "details": "Created workspace \"Sprint Team\"",
+      "timestamp": "2026-09-21T12:00:32.493Z"
+    },
+    {
+      "_id": "464fbc318dd7e80af84695cf",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "CREATE_CATEGORY",
+      "resource": "Category",
+      "resourceId": "57912a7baf6cea41ea473dc4",
+      "details": "Created category \"TestingCat\"",
+      "timestamp": "2026-09-21T12:00:32.489Z"
+    },
+    {
+      "_id": "c36d38f8af274e2bd29f03d1",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "DELETE_REMINDER",
+      "resource": "Reminder",
+      "details": "Deleted \"Updated reminder\"",
+      "timestamp": "2026-09-21T12:00:32.483Z"
+    },
+    {
+      "_id": "797662ae9f0e27bd13689b2c",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "DUPLICATE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "e6fc7a19f9008ca6f9379449",
+      "details": "Duplicated \"Updated reminder\"",
+      "timestamp": "2026-09-21T12:00:32.479Z"
+    },
+    {
+      "_id": "298f46fb12e7f0814ffc442a",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "UPDATE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "7a6e483ef92fddb5442f2a3b",
+      "details": "Updated reminder \"Updated reminder\"",
+      "timestamp": "2026-09-21T12:00:32.477Z"
+    },
+    {
+      "_id": "c36462182cffdf9e5214c85c",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "CREATE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "7a6e483ef92fddb5442f2a3b",
+      "details": "Created reminder \"Test reminder\"",
+      "timestamp": "2026-09-21T12:00:32.473Z"
+    },
+    {
+      "_id": "b37b091b5f4142dd5499cebe",
+      "userId": "a3c5280effd0b88cc871d862",
+      "action": "CREATE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "ca7bbb31b6f443b569e3bbb0",
+      "details": "Created reminder \"gym\"",
+      "timestamp": "2026-09-21T11:49:18.323Z"
+    },
+    {
+      "_id": "39df45b9b51d862791ed2ce4",
+      "userId": "a3c5280effd0b88cc871d862",
+      "action": "COMPLETE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "9f67ea2921bb36efd784495a",
+      "details": "Completed \"I have to go Supermarket 8:30\"",
+      "timestamp": "2026-09-21T11:45:48.372Z"
+    },
+    {
+      "_id": "9e6b973b0bdcc9a655b194a2",
+      "userId": "a3c5280effd0b88cc871d862",
+      "action": "CREATE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "9f67ea2921bb36efd784495a",
+      "details": "Created reminder \"I have to go Supermarket 8:30\"",
+      "timestamp": "2026-09-21T11:37:43.791Z"
+    },
+    {
+      "_id": "1559ad0c9c57b966b1f225af",
+      "userId": "a3c5280effd0b88cc871d862",
+      "action": "UPDATE_PROFILE",
+      "resource": "User",
+      "details": "Updated profile information",
+      "timestamp": "2026-09-21T11:35:51.242Z"
+    },
+    {
+      "_id": "23d6aad75ebba4c46dd914ad",
+      "userId": "a3c5280effd0b88cc871d862",
+      "action": "REGISTER",
+      "resource": "User",
+      "details": "Account registered",
+      "timestamp": "2026-09-21T11:35:12.568Z"
+    },
+    {
+      "_id": "6bb84876f0e32100dc299fae",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "DELETE_REMINDER",
+      "resource": "Reminder",
+      "details": "Deleted \"Test Reminder via API\"",
+      "timestamp": "2026-09-21T09:41:00.179Z"
+    },
+    {
+      "_id": "bd6c002150e66f1991740dc8",
+      "userId": "bb651c90ef7499e7c5845e7f",
+      "action": "CREATE_REMINDER",
+      "resource": "Reminder",
+      "resourceId": "ee42b046bbbd8d15f0ec4157",
+      "details": "Created reminder \"Test Reminder via API\"",
+      "timestamp": "2026-09-21T09:40:58.362Z"
+    }
+  ]
+}
